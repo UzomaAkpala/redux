@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import "./index.css";
 import App from "./App";
-import store from "./Store-v1";
+import store from "./Store-v2";
 
 store.dispatch({ type: "account/deposit", payload: 0 });
 console.log(store.getState());
